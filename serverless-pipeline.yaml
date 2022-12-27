@@ -1,5 +1,4 @@
 name: "Hello world Serverless-cd"
-
 env:
   name: hello world
   age: 18
