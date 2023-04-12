@@ -4,6 +4,7 @@ env:
   age: 18
 steps:
   - run: echo 'Hi ${{ env.name }}'
+  - run: echo $PATH
   - run: echo 'Hi ${{ env.name }}'
     env:
       name: Tony
